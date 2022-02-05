@@ -1,0 +1,24 @@
+{
+  "configurations": {
+    "run": {
+      "adapter": "vscode-node",
+      "default": true,
+      "breakpoints": {
+        "exception": {
+          "all": "N",
+          "uncaught": "N"
+        }
+      },
+      "configuration": {
+        "name": "launch",
+        "protocol": "auto",
+        "stopOnEntry": true,
+        "cwd": "${workspaceRoot}/simple.js",
+        "type": "node",
+        "request": "attach",
+        "skipfiles": ["<node_internals>/**/*.js"],
+        "proccesId": "${proccesId}"
+      }
+    }
+  }
+}
