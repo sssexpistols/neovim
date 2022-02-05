@@ -10,6 +10,6 @@ first you only initalize this config with *init.vim* and *plugins.vim* after you
 
 before you run vim-plug i recommended create the folder plugged or any folder where you save your plugins; once time you install vim-plug,  run the next command 
 ~~~~
-:PluginInstall
+:PlugInstall
 ~~~~
 
